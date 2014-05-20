@@ -22,8 +22,8 @@ function init(config) {
  * Main module object.
  *
  * @param {Object} config
- * @param {string} [config.file="$XDG_DATA_HOME/tiq/store.json"] - The file
- *     used to store the data.
+ * @param {string} [config.host="localhost"] - The host to connect to.
+ * @param {number} [config.port=8000] - The port to connect to.
  * @constructor
  * @private
  */
